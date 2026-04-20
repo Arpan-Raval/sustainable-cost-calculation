@@ -219,4 +219,3 @@ elif page == "Export Report":
             st.success("Report ready for download!")
 
 st.sidebar.markdown("---")
-st.sidebar.info("Developed by Antigravity AI for Efficient Computing & Cloud Sustainability.")
