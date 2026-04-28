@@ -119,6 +119,9 @@ elif page == "Cloud Cost Calculator":
                 "compute": compute_h * compute_r,
                 "storage": storage_g * storage_r,
                 "transfer": transfer_g * transfer_r,
+                "compute_h": compute_h,
+                "storage_g": storage_g,
+                "transfer_g": transfer_g,
                 "df": df_breakdown
             }
             st.success(f"Calculation Complete: ${total:.2f}")
